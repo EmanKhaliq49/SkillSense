@@ -52,9 +52,9 @@ const AppLayout = () => {
   };
 
   const Sidebar = ({ isMobile = false }) => (
-    <div className="flex flex-col h-full bg-gradient-to-b from-sidebar-background to-forest-dark border-r border-sidebar-border relative overflow-hidden">
+    <div className="flex flex-col h-full bg-white border-r border-border relative overflow-hidden">
       {/* Neural network pattern background */}
-      <div className="absolute inset-0 opacity-10">
+      <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{
           backgroundImage: `radial-gradient(circle at 30% 40%, hsl(45 95% 60% / 0.1) 1px, transparent 1px),
                            radial-gradient(circle at 70% 60%, hsl(195 85% 55% / 0.1) 1px, transparent 1px)`,
@@ -62,17 +62,17 @@ const AppLayout = () => {
         }} />
       </div>
 
-      <div className="relative p-6 border-b border-sidebar-border">
+      <div className="relative p-6 border-b border-border">
         <div className="flex items-center gap-3 cursor-pointer group" onClick={() => navigate("/")}>
           <div className="relative">
             <Brain className="h-8 w-8 text-amber-500 group-hover:text-amber-400 transition-colors" />
             <div className="absolute inset-0 bg-amber-500/20 blur-lg rounded-full opacity-0 group-hover:opacity-100 transition-opacity" />
           </div>
           <div>
-            <span className="text-xl font-bold text-white block">
+            <span className="text-xl font-bold text-foreground block">
               SkillSense
             </span>
-            <span className="text-xs text-white/70">Growth Ecosystem</span>
+            <span className="text-xs text-muted-foreground">Growth Ecosystem</span>
           </div>
         </div>
       </div>
@@ -95,7 +95,7 @@ const AppLayout = () => {
                 className={`relative w-full justify-start gap-3 ${
                   active
                     ? "text-forest-dark font-semibold"
-                    : "text-white/95 hover:bg-sidebar-accent/50 hover:text-white"
+                    : "text-foreground hover:bg-muted hover:text-foreground"
                 }`}
                 onClick={() => {
                   navigate(item.path);
@@ -113,10 +113,10 @@ const AppLayout = () => {
         })}
       </nav>
 
-      <div className="relative p-4 border-t border-sidebar-border bg-sidebar-accent/20">
+      <div className="relative p-4 border-t border-border bg-muted/30">
         <Button
           variant="ghost"
-          className="w-full gap-2 text-white/95 hover:bg-sidebar-accent/50 hover:text-white border border-sidebar-border/50 hover:border-amber-500/30"
+          className="w-full gap-2 text-foreground hover:bg-muted border border-border hover:border-primary/30"
           onClick={() => navigate("/guide")}
         >
           <BookOpen className="h-4 w-4" />
