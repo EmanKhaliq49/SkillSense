@@ -61,11 +61,11 @@ All colors MUST be HSL.
 
     /* Sidebar - Deep Forest Green */
     --sidebar-background: 174 50% 20%;
-    --sidebar-foreground: 174 10% 85%;
+    --sidebar-foreground: 0 0% 98%;
     --sidebar-primary: 45 95% 60%;
     --sidebar-primary-foreground: 30 30% 15%;
     --sidebar-accent: 174 45% 25%;
-    --sidebar-accent-foreground: 174 10% 90%;
+    --sidebar-accent-foreground: 0 0% 100%;
     --sidebar-border: 174 45% 30%;
     --sidebar-ring: 45 95% 60%;
   }
@@ -122,11 +122,11 @@ All colors MUST be HSL.
 
     /* Sidebar - Deep Forest Green - Enhanced for dark */
     --sidebar-background: 174 50% 15%;
-    --sidebar-foreground: 174 10% 85%;
+    --sidebar-foreground: 0 0% 98%;
     --sidebar-primary: 45 95% 65%;
     --sidebar-primary-foreground: 30 30% 15%;
     --sidebar-accent: 174 45% 20%;
-    --sidebar-accent-foreground: 174 10% 90%;
+    --sidebar-accent-foreground: 0 0% 100%;
     --sidebar-border: 174 45% 25%;
     --sidebar-ring: 45 95% 65%;
   }
