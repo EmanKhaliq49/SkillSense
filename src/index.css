@@ -10,13 +10,13 @@ All colors MUST be HSL.
   :root {
     /* Terra & Sky - Light Mode */
     --background: 220 15% 96%;
-    --foreground: 180 8% 15%;
+    --foreground: 220 12% 8%;
 
     --card: 0 0% 100%;
-    --card-foreground: 180 8% 15%;
+    --card-foreground: 220 12% 8%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 180 8% 15%;
+    --popover-foreground: 220 12% 8%;
 
     /* Deep Forest Green/Teal for primary */
     --primary: 174 45% 35%;
@@ -27,7 +27,7 @@ All colors MUST be HSL.
     --secondary-foreground: 30 30% 15%;
 
     --muted: 220 15% 92%;
-    --muted-foreground: 220 10% 45%;
+    --muted-foreground: 220 12% 35%;
 
     /* Sky Blue/Cyan for connections */
     --accent: 195 85% 55%;
@@ -73,13 +73,13 @@ All colors MUST be HSL.
   .dark {
     /* Terra & Sky - Dark Mode - Organic Night */
     --background: 220 25% 12%;
-    --foreground: 180 10% 90%;
+    --foreground: 0 0% 98%;
 
     --card: 220 20% 16%;
-    --card-foreground: 180 10% 90%;
+    --card-foreground: 0 0% 98%;
 
     --popover: 220 20% 16%;
-    --popover-foreground: 180 10% 90%;
+    --popover-foreground: 0 0% 98%;
 
     /* Deep Forest Green/Teal for primary */
     --primary: 174 45% 40%;
@@ -90,7 +90,7 @@ All colors MUST be HSL.
     --secondary-foreground: 30 30% 15%;
 
     --muted: 220 20% 20%;
-    --muted-foreground: 220 10% 55%;
+    --muted-foreground: 220 8% 68%;
 
     /* Sky Blue/Cyan for connections */
     --accent: 195 85% 60%;
