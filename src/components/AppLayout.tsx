@@ -69,10 +69,10 @@ const AppLayout = () => {
             <div className="absolute inset-0 bg-amber-500/20 blur-lg rounded-full opacity-0 group-hover:opacity-100 transition-opacity" />
           </div>
           <div>
-            <span className="text-xl font-bold text-sidebar-foreground block">
+            <span className="text-xl font-bold text-white block">
               SkillSense
             </span>
-            <span className="text-xs text-sidebar-foreground/60">Growth Ecosystem</span>
+            <span className="text-xs text-white/70">Growth Ecosystem</span>
           </div>
         </div>
       </div>
@@ -95,7 +95,7 @@ const AppLayout = () => {
                 className={`relative w-full justify-start gap-3 ${
                   active
                     ? "text-forest-dark font-semibold"
-                    : "text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground"
+                    : "text-white/95 hover:bg-sidebar-accent/50 hover:text-white"
                 }`}
                 onClick={() => {
                   navigate(item.path);
@@ -116,7 +116,7 @@ const AppLayout = () => {
       <div className="relative p-4 border-t border-sidebar-border bg-sidebar-accent/20">
         <Button
           variant="ghost"
-          className="w-full gap-2 text-sidebar-foreground hover:bg-sidebar-accent/50 border border-sidebar-border/50 hover:border-amber-500/30"
+          className="w-full gap-2 text-white/95 hover:bg-sidebar-accent/50 hover:text-white border border-sidebar-border/50 hover:border-amber-500/30"
           onClick={() => navigate("/guide")}
         >
           <BookOpen className="h-4 w-4" />
