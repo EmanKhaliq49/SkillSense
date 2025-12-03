@@ -240,13 +240,6 @@ Core tables:
 - `skill_endorsements` - Skill validations from multiple sources
 - `job_matches` - AI-generated job recommendations
 
-## 🤝 Contributing
-
-This is a Lovable project. To contribute:
-
-1. Make changes via [Lovable Editor](https://lovable.dev/projects/6f71f6c6-a754-4cd2-8f59-264ab5337261)
-2. Or clone locally, make changes, and push to GitHub
-3. Changes sync automatically between Lovable and GitHub
 
 ## 📝 License
 
@@ -268,4 +261,4 @@ For issues or questions:
 
 ---
 
-**Built with ❤️ using [Lovable](https://lovable.dev)**
+
